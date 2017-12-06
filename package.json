@@ -1,0 +1,26 @@
+{
+  "name": "hackernews-with-graphql",
+  "version": "1.0.0",
+  "description": "Hackernews clone developed using GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "GraphQL"
+  ],
+  "author": "Jorge Herrera <jorge.herrera.cabrera@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^1.2.0",
+    "body-parser": "^1.18.2",
+    "dataloader": "^1.3.0",
+    "express": "^4.16.2",
+    "graphql": "^0.11.7",
+    "graphql-subscriptions": "^0.5.5",
+    "graphql-tools": "^2.10.0",
+    "mongodb": "^2.2.33",
+    "subscriptions-transport-ws": "^0.9.1"
+  }
+}
